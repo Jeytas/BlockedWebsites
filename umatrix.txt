@@ -1,311 +1,149 @@
-https-strict: behind-the-scene false
-matrix-off: about-scheme true
-matrix-off: behind-the-scene true
-matrix-off: chrome-extension-scheme true
-matrix-off: chrome-scheme true
-matrix-off: localhost true
-matrix-off: moz-extension-scheme true
-matrix-off: opera-scheme true
-referrer-spoof: * true
-referrer-spoof: behind-the-scene false
-ua-spoof: * true
-ua-spoof: 253a497f-ee9c-4b1f-a67b-2285ee4a3df4.moz-extension-scheme false
-ua-spoof: behind-the-scene false
-* * * allow
-* * css allow
-* * image allow
-* 1st-party * allow
-* 1st-party frame allow
-* encrypted.google.com * block
-* facebook.com * block
-* facebook.net * block
-* google.ac * block
-* google.ad * block
-* google.ae * block
-* google.al * block
-* google.am * block
-* google.as * block
-* google.at * block
-* google.az * block
-* google.ba * block
-* google.be * block
-* google.bf * block
-* google.bg * block
-* google.bi * block
-* google.bj * block
-* google.bs * block
-* google.bt * block
-* google.by * block
-* google.ca * block
-* google.cat * block
-* google.cc * block
-* google.cd * block
-* google.cf * block
-* google.cg * block
-* google.ch * block
-* google.ci * block
-* google.cl * block
-* google.cm * block
-* google.cn * block
-* google.co.ao * block
-* google.co.bw * block
-* google.co.ck * block
-* google.co.cr * block
-* google.co.id * block
-* google.co.il * block
-* google.co.in * block
-* google.co.jp * block
-* google.co.ke * block
-* google.co.kr * block
-* google.co.ls * block
-* google.co.ma * block
-* google.co.mz * block
-* google.co.nz * block
-* google.co.th * block
-* google.co.tz * block
-* google.co.ug * block
-* google.co.uk * block
-* google.co.uz * block
-* google.co.ve * block
-* google.co.vi * block
-* google.co.za * block
-* google.co.zm * block
-* google.co.zw * block
-* google.com.af * block
-* google.com.ag * block
-* google.com.ai * block
-* google.com.ar * block
-* google.com.au * block
-* google.com.bd * block
-* google.com.bh * block
-* google.com.bn * block
-* google.com.bo * block
-* google.com.br * block
-* google.com.bz * block
-* google.com.co * block
-* google.com.cu * block
-* google.com.cy * block
-* google.com.do * block
-* google.com.ec * block
-* google.com.eg * block
-* google.com.et * block
-* google.com.fj * block
-* google.com.gh * block
-* google.com.gi * block
-* google.com.gt * block
-* google.com.hk * block
-* google.com.jm * block
-* google.com.kh * block
-* google.com.kw * block
-* google.com.lb * block
-* google.com.lc * block
-* google.com.ly * block
-* google.com.mm * block
-* google.com.mt * block
-* google.com.mx * block
-* google.com.my * block
-* google.com.na * block
-* google.com.ng * block
-* google.com.ni * block
-* google.com.np * block
-* google.com.om * block
-* google.com.pa * block
-* google.com.pe * block
-* google.com.pg * block
-* google.com.ph * block
-* google.com.pk * block
-* google.com.pr * block
-* google.com.py * block
-* google.com.qa * block
-* google.com.sa * block
-* google.com.sb * block
-* google.com.sg * block
-* google.com.sl * block
-* google.com.sv * block
-* google.com.tj * block
-* google.com.tr * block
-* google.com.tw * block
-* google.com.ua * block
-* google.com.uy * block
-* google.com.vc * block
-* google.com.vn * block
-* google.cv * block
-* google.cx * block
-* google.cz * block
-* google.de * block
-* google.dj * block
-* google.dk * block
-* google.dm * block
-* google.dz * block
-* google.ee * block
-* google.es * block
-* google.eu * block
-* google.fi * block
-* google.fm * block
-* google.fr * block
-* google.ga * block
-* google.ge * block
-* google.gf * block
-* google.gg * block
-* google.gl * block
-* google.gm * block
-* google.gp * block
-* google.gr * block
-* google.gy * block
-* google.hn * block
-* google.hr * block
-* google.ht * block
-* google.hu * block
-* google.ie * block
-* google.im * block
-* google.io * block
-* google.iq * block
-* google.is * block
-* google.it * block
-* google.je * block
-* google.jo * block
-* google.kg * block
-* google.ki * block
-* google.kz * block
-* google.la * block
-* google.li * block
-* google.lk * block
-* google.lt * block
-* google.lu * block
-* google.lv * block
-* google.md * block
-* google.me * block
-* google.mg * block
-* google.mk * block
-* google.ml * block
-* google.mn * block
-* google.ms * block
-* google.mu * block
-* google.mv * block
-* google.mw * block
-* google.ne * block
-* google.nf * block
-* google.nl * block
-* google.no * block
-* google.nr * block
-* google.nu * block
-* google.pl * block
-* google.pn * block
-* google.ps * block
-* google.pt * block
-* google.ro * block
-* google.rs * block
-* google.ru * block
-* google.rw * block
-* google.sc * block
-* google.se * block
-* google.sh * block
-* google.si * block
-* google.sk * block
-* google.sm * block
-* google.sn * block
-* google.so * block
-* google.sr * block
-* google.st * block
-* google.td * block
-* google.tg * block
-* google.tk * block
-* google.tl * block
-* google.tm * block
-* google.tn * block
-* google.to * block
-* google.tt * block
-* google.us * block
-* google.vg * block
-* google.vu * block
-* google.ws * block
-* hangouts.google.com * allow
-* instagram.com * block
-* mega.co.nz * allow
-* mega.nz * allow
-* plus.google.com * block
-* support.google.com * block
-* www.google.com * block
-* www.youtube.com media allow
-* youtube.com * allow
-* ytimg.com * allow
-daserste.de * media allow
-daserste.de * script allow
-daserste.de * xhr allow
-daserste.de 1st-party script allow
-duckduckgo.com * script allow
-facebook.com * other block
-facebook.com 1st-party script allow
-facebook.com facebook.com * block
-facebook.com facebook.net css block
-facebook.com fbcdn.net css block
-facebook.com fbsbx.com css block
-facebook.com fbstatic-a.akamaihd.net * block
-fsf.org * script inherit
-github.com * script allow
-google.com adservice.google.com * block
-google.com ssl.gstatic.com media allow
-google.com ssl.gstatic.com script allow
-google.com www.gstatic.com script allow
-imgur.com 1st-party script allow
-manjaro.org 1st-party script allow
-nationalgeographic.com 1st-party script allow
-nationalgeographic.com ngeo.com * allow
-nationalgeographic.com ngeo.com frame allow
-nationalgeographic.com ngeo.com script allow
-openstreetmap.org * script inherit
-reddit.com * script allow
-reddit.com 1st-party script allow
-reddit.com embedly.com cookie allow
-reddit.com embedly.com frame allow
-reddit.com embedly.com media allow
-reddit.com embedly.com other allow
-reddit.com embedly.com xhr allow
-reddit.com imgur.com frame allow
-reddit.com imgur.com media allow
-reddit.com redditmedia.com cookie allow
-reddit.com redditmedia.com frame allow
-reddit.com redditmedia.com media allow
-reddit.com redditstatic.com cookie allow
-reddit.com redditstatic.com frame allow
-reddit.com redditstatic.com media allow
-reddit.com www.redditmedia.com frame allow
-ruby-doc.com * frame inherit
-ruby-doc.com * script allow
-ruby-doc.com code.jquery.com script allow
-ruby-doc.com google.com cookie allow
-ruby-doc.com ras.ruby-doc.org cookie allow
-ruby-doc.com ras.ruby-doc.org xhr allow
-ruby-doc.com ruby-doc.com script allow
-ruby-doc.com servedby-buysellads.com script block
-ruby-doc.com www.google.com script allow
-ruby-doc.org 1st-party script allow
-ruby-doc.org servedby-buysellads.com css block
-ruby-doc.org servedby-buysellads.com image block
-spotify.com * * allow
-spotify.com * frame inherit
-spotify.com * media allow
-spotify.com * script allow
-spotify.com fbcdn.net * block
-spotify.com myvisualiq.net cookie allow
-spotify.com seektables.scdn.co xhr allow
-telegram.org 1st-party script allow
-whatsapp.com * cookie allow
-whatsapp.com * frame allow
-whatsapp.com * media allow
-whatsapp.com * other allow
-whatsapp.com * script allow
-whatsapp.com * xhr allow
-whatsapp.com 1st-party frame inherit
-youtube.com * * allow
-youtube.com 1st-party * inherit
-youtube.com 1st-party cookie allow
-youtube.com 1st-party media allow
-youtube.com 1st-party script allow
-youtube.com googlevideo.com media allow
-youtube.com www.google.com script allow
-youtube.com youtube.com media allow
-youtube.com ytimg.com media allow
-zdf.de * media allow
-zdf.de 1st-party script allow
-zdf.de nrodlzdf-a.akamaihd.net media allow
+{
+  "app": "uMatrix",
+  "version": "1.1.4",
+  "when": 1511187118437,
+  "settings": {
+    "autoUpdate": true,
+    "clearBrowserCache": true,
+    "clearBrowserCacheAfter": 60,
+    "cloudStorageEnabled": false,
+    "collapseBlocked": false,
+    "colorBlindFriendly": false,
+    "deleteCookies": false,
+    "deleteUnusedSessionCookies": false,
+    "deleteUnusedSessionCookiesAfter": 60,
+    "deleteLocalStorage": false,
+    "displayTextSize": "13px",
+    "externalHostsFiles": "",
+    "iconBadgeEnabled": true,
+    "maxLoggedRequests": 1000,
+    "popupScopeLevel": "*",
+    "processHyperlinkAuditing": true,
+    "processReferer": false,
+    "spoofUserAgent": false,
+    "spoofUserAgentEvery": 5,
+    "spoofUserAgentWith": "# http://techblog.willshouse.com/2012/01/03/most-common-user-agents/\n# using ua string which are same browser as real one may work better overall\nMozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\nMozilla/5.0 (Windows NT 6.1; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0\nMozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/600.5.17 (KHTML, like Gecko) Version/8.0.5 Safari/600.5.17\nMozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36\nMozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\nMozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36\nMozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36\nMozilla/5.0 (Windows NT 6.3; WOW64; rv:37.0) Gecko/20100101 Firefox/37.0"
+  },
+  "rules": "* * * allow\n* * css allow\n* * image allow\n* 1st-party * allow\n* 1st-party frame allow\n* encrypted.google.com * block\n* facebook.com * block\n* facebook.net * block\n* google.ac * block\n* google.ad * block\n* google.ae * block\n* google.al * block\n* google.am * block\n* google.as * block\n* google.at * block\n* google.az * block\n* google.ba * block\n* google.be * block\n* google.bf * block\n* google.bg * block\n* google.bi * block\n* google.bj * block\n* google.bs * block\n* google.bt * block\n* google.by * block\n* google.ca * block\n* google.cat * block\n* google.cc * block\n* google.cd * block\n* google.cf * block\n* google.cg * block\n* google.ch * block\n* google.ci * block\n* google.cl * block\n* google.cm * block\n* google.cn * block\n* google.co.ao * block\n* google.co.bw * block\n* google.co.ck * block\n* google.co.cr * block\n* google.co.id * block\n* google.co.il * block\n* google.co.in * block\n* google.co.jp * block\n* google.co.ke * block\n* google.co.kr * block\n* google.co.ls * block\n* google.co.ma * block\n* google.co.mz * block\n* google.co.nz * block\n* google.co.th * block\n* google.co.tz * block\n* google.co.ug * block\n* google.co.uk * block\n* google.co.uz * block\n* google.co.ve * block\n* google.co.vi * block\n* google.co.za * block\n* google.co.zm * block\n* google.co.zw * block\n* google.com.af * block\n* google.com.ag * block\n* google.com.ai * block\n* google.com.ar * block\n* google.com.au * block\n* google.com.bd * block\n* google.com.bh * block\n* google.com.bn * block\n* google.com.bo * block\n* google.com.br * block\n* google.com.bz * block\n* google.com.co * block\n* google.com.cu * block\n* google.com.cy * block\n* google.com.do * block\n* google.com.ec * block\n* google.com.eg * block\n* google.com.et * block\n* google.com.fj * block\n* google.com.gh * block\n* google.com.gi * block\n* google.com.gt * block\n* google.com.hk * block\n* google.com.jm * block\n* google.com.kh * block\n* google.com.kw * block\n* google.com.lb * block\n* google.com.lc * block\n* google.com.ly * block\n* google.com.mm * block\n* google.com.mt * block\n* google.com.mx * block\n* google.com.my * block\n* google.com.na * block\n* google.com.ng * block\n* google.com.ni * block\n* google.com.np * block\n* google.com.om * block\n* google.com.pa * block\n* google.com.pe * block\n* google.com.pg * block\n* google.com.ph * block\n* google.com.pk * block\n* google.com.pr * block\n* google.com.py * block\n* google.com.qa * block\n* google.com.sa * block\n* google.com.sb * block\n* google.com.sg * block\n* google.com.sl * block\n* google.com.sv * block\n* google.com.tj * block\n* google.com.tr * block\n* google.com.tw * block\n* google.com.ua * block\n* google.com.uy * block\n* google.com.vc * block\n* google.com.vn * block\n* google.cv * block\n* google.cx * block\n* google.cz * block\n* google.de * block\n* google.dj * block\n* google.dk * block\n* google.dm * block\n* google.dz * block\n* google.ee * block\n* google.es * block\n* google.eu * block\n* google.fi * block\n* google.fm * block\n* google.fr * block\n* google.ga * block\n* google.ge * block\n* google.gf * block\n* google.gg * block\n* google.gl * block\n* google.gm * block\n* google.gp * block\n* google.gr * block\n* google.gy * block\n* google.hn * block\n* google.hr * block\n* google.ht * block\n* google.hu * block\n* google.ie * block\n* google.im * block\n* google.io * block\n* google.iq * block\n* google.is * block\n* google.it * block\n* google.je * block\n* google.jo * block\n* google.kg * block\n* google.ki * block\n* google.kz * block\n* google.la * block\n* google.li * block\n* google.lk * block\n* google.lt * block\n* google.lu * block\n* google.lv * block\n* google.md * block\n* google.me * block\n* google.mg * block\n* google.mk * block\n* google.ml * block\n* google.mn * block\n* google.ms * block\n* google.mu * block\n* google.mv * block\n* google.mw * block\n* google.ne * block\n* google.nf * block\n* google.nl * block\n* google.no * block\n* google.nr * block\n* google.nu * block\n* google.pl * block\n* google.pn * block\n* google.ps * block\n* google.pt * block\n* google.ro * block\n* google.rs * block\n* google.ru * block\n* google.rw * block\n* google.sc * block\n* google.se * block\n* google.sh * block\n* google.si * block\n* google.sk * block\n* google.sm * block\n* google.sn * block\n* google.so * block\n* google.sr * block\n* google.st * block\n* google.td * block\n* google.tg * block\n* google.tk * block\n* google.tl * block\n* google.tm * block\n* google.tn * block\n* google.to * block\n* google.tt * block\n* google.us * block\n* google.vg * block\n* google.vu * block\n* google.ws * block\n* hangouts.google.com * allow\n* instagram.com * block\n* mega.co.nz * allow\n* mega.nz * allow\n* plus.google.com * block\n* support.google.com * block\n* www.google.com * block\n* www.youtube.com media allow\n* youtube.com * allow\n* ytimg.com * allow\ndaserste.de * media allow\ndaserste.de * script allow\ndaserste.de * xhr allow\ndaserste.de 1st-party script allow\nduckduckgo.com * script allow\nfacebook.com * other block\nfacebook.com 1st-party script allow\nfacebook.com facebook.com * block\nfacebook.com facebook.net css block\nfacebook.com fbcdn.net css block\nfacebook.com fbsbx.com css block\nfacebook.com fbstatic-a.akamaihd.net * block\nfsf.org * script inherit\ngithub.com * script allow\ngoogle.com adservice.google.com * block\ngoogle.com ssl.gstatic.com media allow\ngoogle.com ssl.gstatic.com script allow\ngoogle.com www.gstatic.com script allow\nhttps-strict: behind-the-scene false\nimgur.com 1st-party script allow\nmanjaro.org 1st-party script allow\nmatrix-off: about-scheme true\nmatrix-off: behind-the-scene true\nmatrix-off: chrome-extension-scheme true\nmatrix-off: chrome-scheme true\nmatrix-off: localhost true\nmatrix-off: moz-extension-scheme true\nmatrix-off: opera-scheme true\nnationalgeographic.com 1st-party script allow\nnationalgeographic.com ngeo.com * allow\nnationalgeographic.com ngeo.com frame allow\nnationalgeographic.com ngeo.com script allow\nopenstreetmap.org * script inherit\nreddit.com * script allow\nreddit.com 1st-party script allow\nreddit.com embedly.com cookie allow\nreddit.com embedly.com frame allow\nreddit.com embedly.com media allow\nreddit.com embedly.com other allow\nreddit.com embedly.com xhr allow\nreddit.com imgur.com frame allow\nreddit.com imgur.com media allow\nreddit.com redditmedia.com cookie allow\nreddit.com redditmedia.com frame allow\nreddit.com redditmedia.com media allow\nreddit.com redditstatic.com cookie allow\nreddit.com redditstatic.com frame allow\nreddit.com redditstatic.com media allow\nreddit.com www.redditmedia.com frame allow\nreferrer-spoof: * true\nreferrer-spoof: behind-the-scene false\nruby-doc.com * frame inherit\nruby-doc.com * script allow\nruby-doc.com code.jquery.com script allow\nruby-doc.com google.com cookie allow\nruby-doc.com ras.ruby-doc.org cookie allow\nruby-doc.com ras.ruby-doc.org xhr allow\nruby-doc.com ruby-doc.com script allow\nruby-doc.com servedby-buysellads.com script block\nruby-doc.com www.google.com script allow\nruby-doc.org 1st-party script allow\nruby-doc.org servedby-buysellads.com css block\nruby-doc.org servedby-buysellads.com image block\nspotify.com * * allow\nspotify.com * frame inherit\nspotify.com * media allow\nspotify.com * script allow\nspotify.com fbcdn.net * block\nspotify.com myvisualiq.net cookie allow\nspotify.com seektables.scdn.co xhr allow\ntelegram.org 1st-party script allow\nua-spoof: * true\nua-spoof: 253a497f-ee9c-4b1f-a67b-2285ee4a3df4.moz-extension-scheme false\nua-spoof: behind-the-scene false\nwhatsapp.com * cookie allow\nwhatsapp.com * frame allow\nwhatsapp.com * media allow\nwhatsapp.com * other allow\nwhatsapp.com * script allow\nwhatsapp.com * xhr allow\nwhatsapp.com 1st-party frame inherit\nyoutube.com * * allow\nyoutube.com 1st-party * inherit\nyoutube.com 1st-party cookie allow\nyoutube.com 1st-party media allow\nyoutube.com 1st-party script allow\nyoutube.com googlevideo.com media allow\nyoutube.com www.google.com script allow\nyoutube.com youtube.com media allow\nyoutube.com ytimg.com media allow\nzdf.de * media allow\nzdf.de 1st-party script allow\nzdf.de nrodlzdf-a.akamaihd.net media allow",
+  "hostsFiles": {
+    "malware-0": {
+      "content": "filters",
+      "group": "malware",
+      "title": "Malware Domain List",
+      "contentURL": [
+        "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+        "assets/thirdparties/www.malwaredomainlist.com/hostslist/hosts.txt"
+      ],
+      "hasLocalURL": true,
+      "hasRemoteURL": true,
+      "updateAfter": 13,
+      "cached": true,
+      "writeTime": 1511116298504,
+      "obsolete": false,
+      "remoteURL": "https://www.malwaredomainlist.com/hostslist/hosts.txt",
+      "off": false,
+      "entryCount": 1153,
+      "entryUsedCount": 1122
+    },
+    "malware-1": {
+      "content": "filters",
+      "group": "malware",
+      "title": "Malware domains",
+      "contentURL": [
+        "https://mirror.cedia.org.ec/malwaredomains/justdomains",
+        "https://mirror1.malwaredomains.com/files/justdomains",
+        "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains",
+        "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains.txt"
+      ],
+      "supportURL": "http://www.malwaredomains.com/",
+      "hasLocalURL": true,
+      "hasRemoteURL": true,
+      "updateAfter": 13,
+      "cached": true,
+      "writeTime": 1511116302050,
+      "obsolete": false,
+      "remoteURL": "https://mirror.cedia.org.ec/malwaredomains/justdomains",
+      "off": false,
+      "entryCount": 15539,
+      "entryUsedCount": 15526
+    },
+    "dpollock-0": {
+      "content": "filters",
+      "group": "multipurpose",
+      "updateAfter": 11,
+      "title": "Dan Pollock’s hosts file",
+      "contentURL": [
+        "http://someonewhocares.org/hosts/hosts"
+      ],
+      "supportURL": "http://someonewhocares.org/hosts/",
+      "hasLocalURL": false,
+      "hasRemoteURL": true,
+      "cached": true,
+      "writeTime": 1511086817941,
+      "obsolete": false,
+      "remoteURL": "http://someonewhocares.org/hosts/hosts",
+      "off": false,
+      "entryCount": 13112,
+      "entryUsedCount": 9406
+    },
+    "hphosts": {
+      "content": "filters",
+      "group": "multipurpose",
+      "updateAfter": 11,
+      "title": "hpHosts’ Ad and tracking servers",
+      "contentURL": [
+        "https://hosts-file.net/.%5Cad_servers.txt"
+      ],
+      "supportURL": "https://hosts-file.net/",
+      "hasLocalURL": false,
+      "hasRemoteURL": true,
+      "cached": true,
+      "writeTime": 1511086817702,
+      "obsolete": false,
+      "remoteURL": "https://hosts-file.net/.%5Cad_servers.txt",
+      "off": false,
+      "entryCount": 48110,
+      "entryUsedCount": 43988
+    },
+    "mvps-0": {
+      "content": "filters",
+      "group": "multipurpose",
+      "updateAfter": 11,
+      "title": "MVPS HOSTS",
+      "contentURL": [
+        "http://winhelp2002.mvps.org/hosts.txt"
+      ],
+      "supportURL": "http://winhelp2002.mvps.org/",
+      "hasLocalURL": false,
+      "hasRemoteURL": true,
+      "cached": true,
+      "writeTime": 1511086817572,
+      "obsolete": false,
+      "remoteURL": "http://winhelp2002.mvps.org/hosts.txt",
+      "off": false,
+      "entryCount": 13147,
+      "entryUsedCount": 12649
+    },
+    "plowe-0": {
+      "content": "filters",
+      "group": "multipurpose",
+      "updateAfter": 13,
+      "title": "Peter Lowe’s Ad and tracking server list",
+      "contentURL": [
+        "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+        "assets/thirdparties/pgl.yoyo.org/as/serverlist",
+        "assets/thirdparties/pgl.yoyo.org/as/serverlist.txt"
+      ],
+      "supportURL": "https://pgl.yoyo.org/adservers/",
+      "hasLocalURL": true,
+      "hasRemoteURL": true,
+      "cached": true,
+      "writeTime": 1511116304243,
+      "obsolete": false,
+      "remoteURL": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext",
+      "off": false,
+      "entryCount": 2478,
+      "entryUsedCount": 2478
+    }
+  }
+}
