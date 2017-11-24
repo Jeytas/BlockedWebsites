@@ -4,6 +4,7 @@
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
+# The following websites are websites that will be completely blocked and access to the will be denied system-wide (redirecting to 0.0.0.0)
 # Facebook
 0.0.0.0 0-act.channel.facebook.com
 0.0.0.0 0-edge-chat.facebook.com
@@ -162,3 +163,158 @@ ff02::2 ip6-allrouters
 0.0.0.0 zh-cn.facebook.com
 0.0.0.0 zh-tw.facebook.com
 0.0.0.0 instagram.com
+
+# Twitter
+0.0.0.0 www.twitter.com
+0.0.0.0 twitter.com
+
+# Microsoft
+0.0.0.0 microsoft.com
+0.0.0.0 www.microsoft.com
+0.0.0.0 microsoft.org
+0.0.0.0 www.microsoft.org
+0.0.0.0 microsoft.net
+0.0.0.0 www.microsoft.net
+0.0.0.0 microsoft.co.uk
+0.0.0.0 www.microsoft.co.uk
+0.0.0.0 microsoft.nl
+0.0.0.0 www.microsoft.nl
+0.0.0.0 microsoft.co
+0.0.0.0 www.microsoft.co
+0.0.0.0 microsoft.dk
+0.0.0.0 www.microsoft.dk
+0.0.0.0 outlook.dk
+0.0.0.0 www.outlook.dk
+0.0.0.0 skype.dk
+0.0.0.0 www.skype.dk
+0.0.0.0 live.dk
+0.0.0.0 www.live.dk
+0.0.0.0 hotmail.dk
+0.0.0.0 www.hotmail.dk
+0.0.0.0 hotmail.se
+0.0.0.0 www.hotmail.se
+0.0.0.0 microsoft.se
+0.0.0.0 www.microsoft.se
+0.0.0.0 live.se
+0.0.0.0 www.live.se
+0.0.0.0 outlook.se
+0.0.0.0 www.outlook.se
+0.0.0.0 skype.se
+0.0.0.0 www.skype.se
+0.0.0.0 microsoft.fr
+0.0.0.0 www.microsoft.fr
+0.0.0.0 outlook.fr
+0.0.0.0 www.outlook.fr
+0.0.0.0 skype.fr
+0.0.0.0 www.skype.fr
+0.0.0.0 live.fr
+0.0.0.0 www.live.fr
+0.0.0.0 hotmail.fr
+0.0.0.0 www.hotmail.fr
+0.0.0.0 microsoft.it
+0.0.0.0 www.microsoft.it
+0.0.0.0 outlook.it
+0.0.0.0 www.outlook.it
+0.0.0.0 skype.it
+0.0.0.0 www.skype.it
+0.0.0.0 live.it
+0.0.0.0 www.live.it
+0.0.0.0 hotmail.it
+0.0.0.0 www.hotmail.it
+0.0.0.0 microsoft.de
+0.0.0.0 www.microsoft.de
+0.0.0.0 outlook.de
+0.0.0.0 www.outlook.de
+0.0.0.0 skype.de
+0.0.0.0 www.skype.de
+0.0.0.0 live.de
+0.0.0.0 www.live.de
+0.0.0.0 hotmail.de
+0.0.0.0 www.hotmail.de
+0.0.0.0 outlook.com.au
+0.0.0.0 www.outlook.com.au
+0.0.0.0 microsoftonline.com
+0.0.0.0 www.microsoftonline.com
+
+# LinkedIn
+0.0.0.0 static.licdn.com
+0.0.0.0 www.linkedin.com
+0.0.0.0 media.licdn.com
+0.0.0.0 platform.linkedin.com
+
+# MySpace
+0.0.0.0 browseusers.myspace.com
+0.0.0.0 classifieds.myspace.com
+0.0.0.0 collect.myspace.com
+0.0.0.0 events.myspace.com
+0.0.0.0 favorites.myspace.com
+0.0.0.0 forum.myspace.com
+0.0.0.0 groups.myspace.com
+0.0.0.0 home.myspace.com
+0.0.0.0 invite.myspace.com
+0.0.0.0 linux.myspace.com
+0.0.0.0 log.myspace.com
+0.0.0.0 login.myspace.com
+0.0.0.0 mail.myspace.com
+0.0.0.0 message.myspace.com
+0.0.0.0 messages.myspace.com
+0.0.0.0 music.myspace.com
+0.0.0.0 mx2.myspace.com
+0.0.0.0 myspace.com
+0.0.0.0 ns1.myspace.com
+0.0.0.0 ns2.myspace.com
+0.0.0.0 profile.myspace.com
+0.0.0.0 rio.myspace.com
+0.0.0.0 search.myspace.com
+0.0.0.0 security.myspace.com
+0.0.0.0 signup.myspace.com
+0.0.0.0 videos.myspace.com
+0.0.0.0 vids.myspace.com
+0.0.0.0 viewmorepics.myspace.com
+0.0.0.0 vmta01.myspace.com
+0.0.0.0 vmta02.myspace.com
+0.0.0.0 vmta03.myspace.com
+0.0.0.0 vmta04.myspace.com
+0.0.0.0 vmta05.myspace.com
+0.0.0.0 vmta06.myspace.com
+0.0.0.0 vmta07.myspace.com
+0.0.0.0 vmta08.myspace.com
+0.0.0.0 vmta09.myspace.com
+0.0.0.0 vmta10.myspace.com
+0.0.0.0 vmta11.myspace.com
+0.0.0.0 vmta12.myspace.com
+0.0.0.0 vmta13.myspace.com
+0.0.0.0 www.myspace.com
+0.0.0.0 www1.myspace.com
+
+
+# Pinterest
+0.0.0.0 Pinterest.com
+0.0.0.0 www.Pinterest.com
+0.0.0.0 s-passets-cache-ak0.pinimg.com
+
+
+# Tumblr
+0.0.0.0 Tumblr.com
+0.0.0.0 www.Tumblr.com
+0.0.0.0 cookiex.ngd.yahoo.com
+0.0.0.0 px.srvcs.Tumblr.com
+0.0.0.0 secure.assets.Tumblr.com
+0.0.0.0 36.media.Tumblr.com
+0.0.0.0 38.media.Tumblr.com
+
+# Buzzfeed
+0.0.0.0 buzzfeed.com
+0.0.0.0 www.buzzfeed.com
+
+# Stumbleupon
+0.0.0.0 stumbleupon.com
+0.0.0.0 www.stumbleupon.com
+
+# Snapchat
+0.0.0.0 snapchat.com
+0.0.0.0 www.snapchat.com
+
+# Tinder
+0.0.0.0 tinder.com
+0.0.0.0 www.tinder.com
